@@ -1,0 +1,76 @@
+.SideBar {
+  position: fixed;
+  width: 30%;
+  background-color: rgb(250, 241, 241);
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 10;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.SideBar__header {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.CartItems {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 40rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.SideBar__footer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.SideBar__footer__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 3.6rem;
+}
+.SideBar__footer__button {
+  background-color: red;
+  color: white;
+  padding: 0.9rem;
+  width: 40%;
+  border-radius: 0.7rem;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width:700px) {
+  .SideBar {
+    position: fixed;
+    width: 60%;
+    background-color: rgb(250, 241, 241);
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 10;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+.SideBar__header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+}

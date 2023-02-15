@@ -1,0 +1,22 @@
+.ItemShow {
+  width: 100%;
+  margin-top: 5rem;
+}
+.ItemShow__heading {
+  text-align: center;
+  font-size: 3rem;
+}
+.Products {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width:700px){
+  .Products {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
